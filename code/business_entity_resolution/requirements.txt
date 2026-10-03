@@ -1,0 +1,16 @@
+# Pipeline dependencies with pinned versions
+# Python 3.10+
+# Optional: GPU acceleration for retrieval (CUDA 12.4)
+#   pip install torch==2.6.0 --index-url https://download.pytorch.org/whl/cu124
+# CPU fallback:
+#   pip install torch==2.6.0 --index-url https://download.pytorch.org/whl/cpu
+
+torch>=2.0.0
+polars==1.17.1
+pandas==2.2.3
+numpy==1.26.4
+scipy==1.14.1
+scikit-learn==1.6.0
+lightgbm==4.5.0
+rapidfuzz==3.11.0
+pyarrow==18.1.0

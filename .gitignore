@@ -1,0 +1,13 @@
+# Large output data files (exceeds GitHub file size limit)
+output/*.tsv
+output/*.csv
+output/*.parquet
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+.ipynb_checkpoints/
